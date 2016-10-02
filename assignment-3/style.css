@@ -141,3 +141,15 @@ dd {
     padding: 20px;
     margin: 20px;
 }
+/* Home */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 20px auto;
+}
+.card-title {
+    padding: 10px 20px;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
