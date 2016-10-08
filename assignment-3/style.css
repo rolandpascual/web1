@@ -67,6 +67,7 @@ a.nav-link {
 }
 a.nav-link:hover {
     color: #FFD86B;
+    border-color: #FFD86B;
 }
 /* Main content */
 .main-content {
