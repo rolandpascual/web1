@@ -99,9 +99,9 @@ a.nav-link:hover {
     width: 0;
     height: 0;
     color: rgba(255, 255, 255, 0);
-    padding: 60px 160px 0 0;
+    padding: 90px 90px 0 0;
     background-image: url('images/logo.png');
-    background-size: 60px 60px;
+    background-size: 90px 90px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 3px;
@@ -114,8 +114,6 @@ a.nav-link:hover {
 /* Main content */
 .main-content {
     margin: 50px auto;
-    padding: 20px;
-    text-align: center;
     width: 960px;
 .clear {
     clear: both;
