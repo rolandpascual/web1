@@ -84,7 +84,7 @@ a.nav-link {
     font-family: Cormorant, cursive;
     display: inline-block;
     margin: 10px 5px;
-    padding: 0px 15px;
+    padding: 0 15px;
     border-radius: 20px;
     border: 2px solid rgba(255,255,255,0);
     transition: all 0.2s ease;
@@ -101,7 +101,7 @@ a.nav-link:hover {
     color: rgba(255, 255, 255, 0);
     padding: 60px 160px 0 0;
     background-image: url('images/logo.png');
-    background-size: 120px 60px;
+    background-size: 60px 60px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 3px;
@@ -144,14 +144,26 @@ footer {
 /* Home */
 .card {
     background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    width:calc(33.3% - 20px);
+    min-height: 310px;
+    margin: 10px
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
     border: 1px solid #ddd;
-    width:300px;
-    margin: 20px auto;
 }
 .card-title {
-    padding: 10px 20px;
+    padding: 0 20px;
     margin:20px 0 10px 0;
+    font-family: Cormorant, cursive;
     font-size:24px;
+}    
+.card-description {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
 }
 /* Coffee */
 .coffee-quote {
