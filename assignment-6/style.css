@@ -22,18 +22,23 @@ a:hover {
 /* Hero */
 #coffee .hero {
      background-image: url('images/coffee.jpg');
+     /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
 }
 #home .hero {
       background-image: url('images/ocean.jpg');
+      /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
 }
 #about .hero {
       background-image: url('images/blueberries.jpg');
+      /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
 }
 #search .hero {
       background-image: url('images/sky.jpg');
+      /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
 }
 #assignments .hero {
       background-image: url('images/coast.jpg');
+      /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
 }
 .hero {
     background-color: #222;
@@ -240,6 +245,7 @@ cite {
 /* Assignments */
 .assignment-list dt  {
    margin-top: 20px;
+   text-decoration: underline;
 }
 .assignment-list a {
     color: #3c8bce;
