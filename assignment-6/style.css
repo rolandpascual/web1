@@ -20,16 +20,28 @@ a:hover {
 
 
 /* Hero */
-
+#coffee .hero {
+     background-image: url('images/coffee.jpg');
+}
+#home .hero {
+      background-image: url('images/ocean.jpg');
+}
+#about .hero {
+      background-image: url('images/blueberries.jpg');
+}
+#search .hero {
+      background-image: url('images/sky.jpg');
+}
+#assignments .hero {
+      background-image: url('images/coast.jpg');
+}
 .hero {
-    background-image: url('images/coffee.jpg');
     background-color: #222;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     overflow: auto;
-    
-}
+    }
 .hero-card {
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.73);
@@ -178,7 +190,6 @@ a.card {
     transform: scale(1.025);
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
-
 .card-title {
     padding: 0px 20px;
     margin:20px 0 10px 0;
