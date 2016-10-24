@@ -21,7 +21,6 @@ a:hover {
 
 /* Hero */
 
-
 .hero {
     background-image: url('images/coffee.jpg');
     background-color: #222;
@@ -211,6 +210,7 @@ cite {
     min-width: 150px;
     text-align: right;
     font-size: 14px;
+}    
 .menu td {
     padding: 10px 10px;
     vertical-align: top;
@@ -243,7 +243,7 @@ cite {
 /* About */
 .about-photo {
     width:200px;
-    height: 200px
+    height: 200px;
     border-radius: 100px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
