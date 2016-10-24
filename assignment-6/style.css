@@ -20,7 +20,7 @@ a:hover {
 
 /* Hero */
 .hero {
-    background-image: url("images/blueberries.jpg");
+    background-image: url('images/coffee.jpg');
     background-color: #222;
     background-repeat: no-repeat;
     background-position: center center;
