@@ -181,7 +181,7 @@ button {
     border-radius: 3px;
 }
 /* Home */
-a.card {
+.card {
     background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     width: calc(33.3% - 20px);
@@ -191,6 +191,7 @@ a.card {
     text-decoration: none;
     color: #333;
     transition: all .2s ease;
+    
 }
 .card:hover {
     transform: scale(1.025);
