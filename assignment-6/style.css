@@ -136,7 +136,7 @@ a.nav-link:hover {
     clear: both;
 }
 /* Footer */
-.footer {
+footer {
     background-color: #333;
     color: #999;
     padding: 20px;
@@ -187,7 +187,7 @@ a.card {
     width: calc(33.3% - 20px);
     min-height: 310px;
     margin: 10px;
-    float: left;
+    float: right;
     text-decoration: none;
     color: #333;
     transition: all .2s ease;
