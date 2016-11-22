@@ -91,8 +91,8 @@ clear {
     clear: both;
 }
 
-/* Search */
-.search-placeholder {
+/* Home */
+.home-placeholder {
     text-align: center;
     overflow: auto;
     font-size: 20px;
@@ -107,14 +107,16 @@ clear {
     background-color: #fff;
     border: 1px solid #ddd;
     width:300px;
+    height: 300px;
     margin: 20px auto;
     
 }
 .card-title {
+    color: #666;
     padding: 10px 20px;
     margin:20px 0 10px 0;
     font-size:24px;
-    color: #16445f;
+    
 }
 /* margarita */
 .coffee-quote {
