@@ -102,13 +102,13 @@ clear {
     padding: 10px;
     text-align: center;
 }
-/* Home */
+/* More */
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
     width:300px;
     margin: 20px auto;
-    float: right;
+    
 }
 .card-title {
     padding: 10px 20px;
@@ -116,7 +116,7 @@ clear {
     font-size:24px;
     color: #16445f;
 }
-/* Coffee */
+/* margarita */
 .coffee-quote {
     font-size: 30px;
     color: #16445f;
@@ -137,18 +137,4 @@ dd {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-/* Assignments */
-.assignment-list {
-    border: 4px solid #ddd;
-    padding: 20px;
-    margin: 20px auto;
-    width: 860px;
-    text-align: center;
-}
-/* About */
-.about-list-container {
-    border: 4px solid #ddd;
-    text-align: left;
-    padding: 20px;
-    margin: 20px;
-}
+
