@@ -3,9 +3,11 @@ body {
     margin: 0;
 }
 .main-nav {
-    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.3);
     font-size: 20px;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 .nav-link {
     text-decoration: none;
@@ -40,10 +42,18 @@ body {
     background-position: center center;
     text-align: center;
 }
-.hero h1 {
+.hero-blue {
+    background-image: url('images/snow-blue.jpg');
+}
+.hero-yellow{
+    background-image: url('images/city-yellow.jpg');
+}
+.hero-red {
+    background-image: url('images/mountains-red.jpg');
+}
+.hero-h1 {
     margin: 0;
     padding-top: 100px;
-
 }
 .main-content {
     text-align: center;
@@ -62,4 +72,13 @@ body {
     height: 300px;
     display: inline-block;
     vertical-align: top;
+}
+.left-box-yellow {
+    background-color: #ffa73a;
+}
+.left-box-red {
+    background-color: #ee5573;
+}
+.left-box-blue {
+    background-color: #288bcd;
 }

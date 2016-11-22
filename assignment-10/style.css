@@ -1,0 +1,153 @@
+/*
+General Styling
+*/
+@import 'https://fonts.googleapis.com/css?
+family=Cormorant:300/
+body {
+    font-family: roboto, arial, sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #d69e00;
+}
+a:hover {
+    color: #e4b532;
+    
+}
+
+/* Hero */
+.hero {
+    background-color: #46603d;
+    text-align: center;
+    overflow: auto;
+    
+}
+.hero-card {
+    border: 2px solid #fff;
+    color: #efefef;
+    padding :50px;
+    width: 500px;
+    margin: 100px auto 50px auto;
+}
+.hero-card-title {
+    font-family: georgia, serif;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: georgia,serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+a.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+a.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
+}
+/* Navigation */
+.main-nav {
+    margin: 20px auto;
+    max-width: 960p;
+}
+a.nav-link {
+    color: #fff;
+    text-decoration: none;
+    height: 40px
+    line-height: 38px;
+    font-size: 20px;
+    font-family: Charter, roman;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0);
+    transition: all 0.2s ease;
+}
+a.nav-link:hover {
+    color: #31a192e;
+    border-color: #A4AABA;
+    background-color: #35366D;
+}
+/* Main content */
+.main-content {
+    background-color: #B3B9C0 ;
+    text-align: center;
+    overflow: auto;
+    margin: 20px auto;
+    
+}
+clear {
+    clear: both;
+}
+
+/* Search */
+.search-placeholder {
+    text-align: center;
+    overflow: auto;
+    font-size: 20px;
+    font-family: Charter, roman;
+    background-color: 3b3b9c0;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+}
+/* Home */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width:300px;
+    margin: 20px auto;
+}
+.card-title {
+    padding: 10px 20px;
+    margin:20px 0 10px 0;
+    font-size:24px;
+    color: #31a192e;
+}
+/* Coffee */
+.coffee-quote {
+    font-size: 30px;
+    color: #16445f;
+    text-align: center;
+}
+.menu {
+    border: 4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+}
+dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+dd {
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/* Assignments */
+.assignment-list {
+    border: 4px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 860px;
+    text-align: center;
+}
+/* About */
+.about-list-container {
+    border: 4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
