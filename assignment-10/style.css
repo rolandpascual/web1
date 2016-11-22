@@ -108,6 +108,7 @@ clear {
     border: 1px solid #ddd;
     width:300px;
     margin: 20px auto;
+    float: right;
 }
 .card-title {
     padding: 10px 20px;
