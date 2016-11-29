@@ -4,7 +4,7 @@ General Styling
 @import 'https://fonts.googleapis.com/css?
 family=Cormorant:300/
 body {
-    font-family: roboto, arial, sans-serif;
+    font-family: charter, apple chancery;
     font-weight: 400;
     background-color: #f1f1f1;
     color: #333;
@@ -20,6 +20,10 @@ a:hover {
 }
 
 /* Hero */
+#home .hero {
+      background-image: url('images/margaritamainpic3.jpg');
+      /*photo by http://www.foodchannel.com/media/uploads/_thumbs/classic-margarita1_png_1280x800_q85.jpg
+}
 .hero {
     background-color: #46603d;
     text-align: center;
