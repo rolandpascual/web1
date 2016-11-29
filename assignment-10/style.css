@@ -22,6 +22,24 @@ a:hover {
       background-image: url('images/margaritamainpic3.jpg');
       /*photo by http://www.foodchannel.com/media/uploads/_thumbs/classic-margarita1_png_1280x800_q85.jpg
 }
+.hero {
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+.hero-card {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.10);
+    color: #efefef;
+    margin: 110px auto 60px auto;
+    padding :50px;
+    max-width: 960px;
+    text-align: center;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+   
+}
 /* Navigation */
 .main-nav {
     margin: 20px auto;
