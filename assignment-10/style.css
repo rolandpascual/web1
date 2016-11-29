@@ -20,7 +20,8 @@ a:hover {
 /* Hero */
 #home .hero {
       background-image: url('images/margaritamainpic3.jpg');
-      /*photo by http://www.foodchannel.com/media/uploads/_thumbs/classic-margarita1_png_1280x800_q85.jpg
+      /*photo by http://www.foodchannel.com/media/uploads/_thumbs/classic-margarita1_png_1280x800_q85.jpg */
+
 }
 .hero {
     background-color: #222;
@@ -38,7 +39,31 @@ a:hover {
     max-width: 960px;
     text-align: center;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
-   
+}
+.hero-card-title {
+    font-family: Cormorant, cursive;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: Cormorant, cursive;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    border-radius: 18px;
+    padding: 5px 20px;
+    display: inline-block;
+    transition: all 0.2s ease; 
+}
+.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
 }
 /* Navigation */
 .main-nav {
