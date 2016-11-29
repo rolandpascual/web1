@@ -41,12 +41,12 @@ a:hover {
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
 }
 .hero-card-title {
-    font-family: Cormorant, cursive;
+    font-family: charter, roman;
     margin: 0;
     font-size: 50px;
 }
 .hero-card-description {
-    font-family: Cormorant, cursive;
+    font-family: charter, roman;
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
